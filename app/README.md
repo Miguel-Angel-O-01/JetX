@@ -20,4 +20,15 @@ Jet X es una aplicación móvil nativa para Android desarrollada en Kotlin y Jet
 
 ## Arquitectura de Software
 
-La aplicación móvil implementa los principios de **Clean Architecture** junto con el patrón de presentación **MVVM / MVI**, garantizando una estricta separación de responsabilidades y la unidireccionalidad en el flujo de datos:
+* La aplicación móvil implementa los principios de **Clean Architecture** junto con el patrón de presentación **MVVM / MVI**, garantizando una estricta separación de responsabilidades y la unidireccionalidad en el flujo de datos:
+---
+## Integrantes del desarrollo
+* Durante todo el desarollo contamos con la participación de las siguentes personas:   
+* **MIGUEL ANGEL CRUZ OLMEDO**              **27-2723-2025**
+
+* **RICARDO PEDRO ORANTES CUELLAR**     **27-6587-2013**
+* **ADRINA MELISSA ROQUE DE PAZ**              **25-0674-2022**
+* **JESÚS ENRIQUE MARTINEZ JUÁREZ**           **27-0637-2025**
+* **GEOVANNY DANIEL BARRERA HERRERA**        **25-0615-2022**
+* **ABNER ESAU VASQUEZ DIAZ**                       **23-3426-2022**
+* **DIEGO ALEJANDRO SAMAYOA TORRES**       **17-2106-2021**
