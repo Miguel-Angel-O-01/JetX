@@ -1,4 +1,4 @@
-package com.example.jetx.presentation
+package com.example.jetx.presentation.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
