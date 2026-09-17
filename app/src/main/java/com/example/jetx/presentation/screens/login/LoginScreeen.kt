@@ -44,9 +44,11 @@ fun LoginScreen(
             label = { Text("Contraseña") },
             modifier = Modifier.fillMaxWidth()
         )
-
+        Text(
+            text = "Caracteres: ${contraseña.length}",
+            modifier = Modifier.fillMaxWidth()
+        )
         Spacer(modifier = Modifier.height(24.dp))
-
         Button(
             onClick = {
                 if (usuario.isEmpty() || contraseña.isEmpty()) {
