@@ -28,6 +28,10 @@ fun LoginScreen(
             style = MaterialTheme.typography.headlineLarge
         )
 
+        Text(
+            text = "Ingrese sus credenciales para continuar"
+        )
+
         Spacer(modifier = Modifier.height(32.dp))
 
         OutlinedTextField(
