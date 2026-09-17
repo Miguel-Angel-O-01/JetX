@@ -13,6 +13,7 @@ fun LoginScreen(
 ) {
     var usuario by remember { mutableStateOf("") }
     var contraseña by remember { mutableStateOf("") }
+    var mensaje by remember { mutableStateOf("") }
 
     Column(
         modifier = Modifier
@@ -47,10 +48,23 @@ fun LoginScreen(
         Spacer(modifier = Modifier.height(24.dp))
 
         Button(
-            onClick = onLoginSuccess,
+            onClick = {
+                if (usuario.isEmpty() || contraseña.isEmpty()) {
+                    mensaje = "Complete todos los campos"
+                } else {
+                    onLoginSuccess()
+                }
+            },
             modifier = Modifier.fillMaxWidth()
         ) {
             Text(text = "Iniciar Sesión")
+        }
+
+        if (mensaje.isNotEmpty()) {
+            Text(
+                text = mensaje,
+                modifier = Modifier.padding(top = 8.dp)
+            )
         }
 
         Spacer(modifier = Modifier.height(12.dp))
