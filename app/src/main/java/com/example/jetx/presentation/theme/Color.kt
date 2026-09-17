@@ -1,4 +1,4 @@
-package com.example.jetx.ui.theme
+package com.example.jetx.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
