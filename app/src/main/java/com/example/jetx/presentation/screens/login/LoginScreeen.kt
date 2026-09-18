@@ -50,6 +50,12 @@ fun LoginScreen(
             visualTransformation = PasswordVisualTransformation(),
             modifier = Modifier.fillMaxWidth()
         )
+        if (contraseña.isEmpty()) {
+            Text(
+                text = "Ingrese su contraseña",
+                modifier = Modifier.fillMaxWidth()
+            )
+        }
         Text(
             text = "Caracteres: ${contraseña.length}",
             modifier = Modifier.fillMaxWidth()
