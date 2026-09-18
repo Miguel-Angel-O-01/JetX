@@ -71,6 +71,8 @@ fun LoginScreen(
             onClick = {
                 if (usuario.isEmpty() || contraseña.isEmpty()) {
                     mensaje = "Complete todos los campos"
+                } else if (contraseña.length < 6) {
+                    mensaje = "La contraseña debe tener al menos 6 caracteres"
                 } else {
                     onLoginSuccess()
                 }
