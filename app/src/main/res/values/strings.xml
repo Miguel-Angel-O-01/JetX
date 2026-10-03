@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">JetX</string>
+    <string name="login_title">Jet X</string>
+    <string name="hint_username">Usuario o Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu usuario o contraseña?</string>
+    <string name="new_client">¿Eres nuevo cliente? Regístrate aquí</string>
+    <string name="btn_login">Iniciar Sesión</string>
 </resources>
